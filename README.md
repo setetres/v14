@@ -1,11 +1,13 @@
-# mortelenta
+# v14
 
-| [![mortelenta](https://setetres.s3.amazonaws.com/setetres.st/img/share-mortelenta.png?v=2&raw=true)](http://mortelenta.org) |
-| --------------------------------------------------------------------------------------------------------------------------- |
+[![Github License](https://img.shields.io/github/license/setetres/v14.svg?v=1)](https://github.com/setetres/v14/blob/main/LICENSE)
+
+| [![v14](https://setetres.s3.amazonaws.com/setetres.st/img/share-v14.png?v=1&raw=true)](http://setetres.st) |
+| ---------------------------------------------------------------------------------------------------------- |
 
 ## License
 
 [CC0-1.0]
 
-[http://mortelenta.org]: http://mortelenta.org
+[http://setetres.st]: http://setetres.st
 [cc0-1.0]: http://creativecommons.org/licenses/cc0/1.0
