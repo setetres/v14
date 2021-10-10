@@ -203,11 +203,6 @@ export default {
       next()
     })
   },
-  head() {
-    return {
-      title: 'Sete Três',
-    }
-  },
   mounted() {
     this.$nextTick(() => {
       const cv = document.getElementById('cv')
