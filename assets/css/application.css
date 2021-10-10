@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::before {
+  background-image: url('/noise.gif');
+  background-repeat: repeat;
+  background-position: center center;
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 0;
+  opacity: 0.15;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.panel {
+  @apply bg-red-500 w-16 h-16 rounded-full;
+
+  box-shadow: 10px 10px 10px #991b1b, 10px 10px 10px #dc2626,
+    0 0 0 #991b1b inset, 0 0 0 #f87171 inset;
+  animation: panelAnimation 666ms cubic-bezier(0.5, -0.5, 0, 1.5) 666ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes panelAnimation {
+  0% {
+    @apply bg-red-600 w-16 h-16 rounded-full;
+
+    box-shadow: 0 0 0 #991b1b, 0 0 0 #dc2626, 10px 10px 10px #991b1b inset,
+      -10px -10px 10px #f87171 inset;
+  }
+
+  30% {
+    @apply bg-red-500 w-16 h-16 rounded-full;
+
+    box-shadow: 10px 10px 10px #991b1b, 10px 10px 10px #686161,
+      0 0 0 #991b1b inset, 0 0 0 #f87171 inset;
+  }
+
+  70% {
+    @apply bg-red-500 w-16 h-64 rounded-xl;
+
+    box-shadow: 10px 10px 10px #991b1b, 10px 10px 10px #dc2626,
+      0 0 0 #991b1b inset, 0 0 0 #f87171 inset;
+  }
+
+  100% {
+    @apply bg-red-500 w-64 h-64 rounded-lg;
+
+    box-shadow: 40px 40px 40px #991b1b, 0 0 0 #dc2626, 0 0 0 #991b1b inset,
+      2px 2px 2px #f87171 inset;
+  }
+}
