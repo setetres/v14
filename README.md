@@ -1,6 +1,6 @@
 # v14
 
-[![Github License](https://img.shields.io/github/license/setetres/v14.svg?v=1)](https://github.com/setetres/v14/blob/main/LICENSE)
+[![Github License](https://img.shields.io/github/license/setetres/v14.svg?v=1)](https://github.com/setetres/v14/blob/master/LICENSE)
 
 | [![v14](https://setetres.s3.amazonaws.com/setetres.st/img/share-v14.png?v=1&raw=true)](http://setetres.st) |
 | ---------------------------------------------------------------------------------------------------------- |
